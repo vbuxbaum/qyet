@@ -5,6 +5,7 @@ edit_uri: tree/main/docs/
 
 theme:
   name: material
+  favicon: assets/logo.png
   palette:
     primary: green
     accent: amber
