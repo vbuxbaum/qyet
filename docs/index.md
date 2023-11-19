@@ -1,5 +1,36 @@
 ![logo do projeto](assets/logo.png){width=300 .center}
 
-# Welcome to Qyet
+# Qyet
 
-When you need your code to stop talking.
+Python package with tools for suppressing output.
+
+> shhh... please be qyet
+
+## Installation
+
+```bash
+pip install qyet
+```
+
+## Usage
+
+For now, there is only one decorator, `shhh`, which suppresses the output of a function.
+
+```python
+from qyet import shhh
+
+@shhh
+def foo():
+    print("Hello, world!")
+
+foo() # No output
+```
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## Thanks to
+
+@dunossauro for a [great content (in pt_BR) on how to create a Python package](https://www.youtube.com/playlist?list=PLOQgLBuj2-3LiHhK1upnjpHiFzcJ472QS).
+
