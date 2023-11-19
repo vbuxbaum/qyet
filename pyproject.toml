@@ -29,7 +29,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.pytest.ini_options]
 pythonpath = "."
-addopts = "--doctest-modules --no-cov-on-fail --cov-report=term-missing --cov=qyet"
+addopts = "--doctest-modules -vv --no-cov-on-fail --cov-report=term-missing --cov=qyet"
 
 [tool.isort]
 profile = "black"
