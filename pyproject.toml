@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "qyet"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["Vitor Buxbaum <vitorbuxbaum@gmail.com>"]
 readme = "README.md"
